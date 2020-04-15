@@ -61,6 +61,12 @@ df <- df%>%
 #   mutate(checker = `Population Density(No. per Sq. Km)`==fig)
 
 
+df$County <- gsub("HomaBay", "Homa Bay", df$County)
+df$County <- gsub("NairobiCity", "Nairobi City",  df$County)
+df$County <- gsub("TransNzoia", "Trans Nzoia", df$County)
+df$County <- gsub("WestPokot", "West Pokot",  df$County)
+df$County <- gsub("TanaRiver", "Tana River", df$County)
+df$County <- gsub("UasinGishu", "Uasin Gishu",  df$County)
 
 ## Save the dataset
 write_csv(df, "../../../Desktop/KenyanCensus2019/Datasets/V1_T2.4.csv")
