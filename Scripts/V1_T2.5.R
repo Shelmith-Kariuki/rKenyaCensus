@@ -148,6 +148,11 @@ df_rows2 <- df_rows2 %>%
   mutate(SubArea = ifelse(County == "Kenya", "xxx", SubArea),
          County = ifelse(County == "Kenya", "Total", County))
 
+## The forest areas should be special areas
+df_rows2 <- df_rows2 %>%
+  mutate(SubArea = ifelse(County %in% grep("forest|\\*", County, value = TRUE, ignore.case = TRUE),
+                          "Special Area", SubArea))
+
 ##Rename the variables
 
 names(df_rows2) <- c("SubCounty", "Male","Female","Intersex", "Total", "County", "AdminArea")

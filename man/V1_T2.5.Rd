@@ -19,9 +19,10 @@
 data(V1_T2.5)
 }
 \description{
-Distribution of Population by Sex and Sub-County. The rows tagged "County" in the
+Distribution of Population by Sex and Sub-County.
+The rows tagged "County" in the
 "AdminArea" variable contain the sub totals of their respective counties e.g the number of
-males in Nyeri County (374288), is the summation of the number of males in all the
+males in Nyeri County (374288), is the summation of the number of males of all the
 subcounties of that county.
 }
 \keyword{datasets}
