@@ -5,7 +5,7 @@
 library(tidyverse)
 library(tabulizer)
 
-df <- tabulizer::extract_tables("Resources/VOLUME 1 KPHC 2019.pdf", pages = 17)
+df <- tabulizer::extract_tables("../../../Desktop/KenyanCensus2019/Resources/VOLUME 1 KPHC 2019.pdf", pages = 17)
 df <- data.frame(df)
 
 ## Remove the elipses
