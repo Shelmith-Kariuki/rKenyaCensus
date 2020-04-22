@@ -9,7 +9,7 @@
 \item{\code{County}}{County}
 \item{\code{Male}}{Number of Males}
 \item{\code{Female}}{Number of Females}
-\item{\code{Intersex}}{Intersex}
+\item{\code{Intersex}}{Number of Intersex Persons}
 \item{\code{Total}}{Total number of individuals per County}
 }}
 \usage{

@@ -1,10 +1,10 @@
 #' Volume I: Table 2.5
 #'
 #' Distribution of Population by Sex and Sub-County.
-#' The rows tagged "County" in the
-#' "AdminArea" variable contain the sub totals of their respective counties e.g the number of
-#' males in Nyeri County (374288), is the summation of the number of males of all the
-#' subcounties of that county.
+#' The rows tagged "County" in the "AdminArea" variable contain the sub totals of their
+#' respective counties e.g the number of males in Nyeri County (374288),
+#' is the summation of the number of males of all the subcounties of that county.
+#' Note: The first row contains the national total, for each of the variables.
 #' @docType data
 #'
 #' @usage data(V1_T2.5)

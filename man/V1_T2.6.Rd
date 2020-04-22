@@ -18,5 +18,6 @@ data(V1_T2.6)
 }
 \description{
 Distribution of Population, Number of Households and Average Household Size by Sub-County
+Note: The first row contains the national total, for each of the variables.
 }
 \keyword{datasets}
