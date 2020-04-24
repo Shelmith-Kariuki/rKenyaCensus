@@ -17,44 +17,42 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 <!-- badges: end -->
-
-The goal of rKenyaCensus2019 is to ...
+The goal of rKenyaCensus2019 is to provide tidy datasets obtained from the 2019 Kenya Population and Housing Census results.
 
 ## Installation
 
-You can install the released version of rKenyaCensus2019 from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("rKenyaCensus2019")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version of rKenyaCensus2019 from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("Shelmith-Kariuki/rKenyaCensus2019")
 ```
+And the released version from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("rKenyaCensus2019")
+```
+_Note: This package is not yet available on CRAN._
+
+
 ## Example
+Information on each of the datasets can be found in the DataCatalogue dataset.
+``` r
+data("DataCatalogue")
+```
 
-This is a basic example which shows you how to solve a common problem:
+The following is a basic example to show how the datasets can be extracted:
 
-```{r example}
+``` r
+
+## Suppose we want to obtain the dataset that shows the distribution of Population by Sex and County. This is Table 2.2 in Volume 1.
+
+## Load the package
 library(rKenyaCensus2019)
-## basic example code
+
+## Extract the table
+df <- V1_T2.2
+
+## To learn more about the dataset, run the following command
+?V1_T2.2
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!

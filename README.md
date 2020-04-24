@@ -1,30 +1,44 @@
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # rKenyaCensus2019
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of rKenyaCensus2019 is to provide tidy datasets obtained from the 2019 Kenya Population and Housing Census results.
+The goal of rKenyaCensus2019 is to provide tidy datasets obtained from
+the 2019 Kenya Population and Housing Census results.
 
 ## Installation
 
-You can install the development version of rKenyaCensus2019 from [GitHub](https://github.com/) with:
+You can install the development version of rKenyaCensus2019 from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("Shelmith-Kariuki/rKenyaCensus2019")
 ```
+
 And the released version from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("rKenyaCensus2019")
 ```
-_Note: This package is not yet available on CRAN._
 
+*Note: This package is not yet available on CRAN.*
 
 ## Example
 
-This is a basic example to show how the datasets can be extracted:
+Information on each of the datasets can be found in the DataCatalogue
+dataset.
+
+``` r
+data("DataCatalogue")
+```
+
+The following is a basic example to show how the datasets can be
+extracted:
 
 ``` r
 
@@ -36,8 +50,6 @@ library(rKenyaCensus2019)
 ## Extract the table
 df <- V1_T2.2
 
-## To learn more about the dataset, type
+## To learn more about the dataset, run the following command
 ?V1_T2.2
-
 ```
-
