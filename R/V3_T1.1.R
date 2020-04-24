@@ -1,0 +1,16 @@
+#' Volume 3: Table 1.1
+#'
+#' Summary of Census Counts in Kenya
+#' @docType data
+#'
+#' @usage data(V3_T1.1)
+#'
+#' @format A data frame with 2 variables:
+#' \describe{
+#' \item{\code{Year}}{Year}
+#' \item{\code{Population (millions)}}{Population in millions}
+
+#'}
+#' @keywords datasets
+#'
+"V3_T1.1"

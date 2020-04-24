@@ -5,13 +5,9 @@
 #'
 #' @usage data(V2_T2.3)
 #'
-#' @format A data frame with 13 variables:
+#' @format A data frame with 9 variables:
 #' \describe{
-#' \item{\code{CountyCode}}{County Code (1 - 47)}
-#' \item{\code{County}}{County}
-#' \item{\code{SubCountyCode}}{Sub County Code (1 - 47)}
-#' \item{\code{SubCounty}}{Sub County}
-#' \item{\code{Area}}{Specifies whether an area is a County or Sub County}
+#' \item{\code{County/SubCounty}}{Specifies the County or SubCounty}
 #' \item{\code{Sex_Total}}{Total number of individuals}
 #' \item{\code{Sex_Male}}{Number of Males}
 #' \item{\code{Sex_Female}}{Number of Females}
