@@ -1,29 +1,29 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rKenyaCensus2019
+# rKenyaCensus
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of rKenyaCensus2019 is to provide tidy datasets obtained from
-the 2019 Kenya Population and Housing Census results.
+The goal of rKenyaCensus is to provide tidy datasets obtained from the
+Kenya Population and Housing Census results.
 
 ## Installation
 
-You can install the development version of rKenyaCensus2019 from
+You can install the development version of rKenyaCensus from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Shelmith-Kariuki/rKenyaCensus2019")
+devtools::install_github("Shelmith-Kariuki/rKenyaCensus")
 ```
 
 And the released version from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("rKenyaCensus2019")
+install.packages("rKenyaCensus")
 ```
 
 *Note: This package is not yet available on CRAN.*
@@ -45,7 +45,7 @@ extracted:
 ## Suppose we want to obtain the dataset that shows the distribution of Population by Sex and County. This is Table 2.2 in Volume 1.
 
 ## Load the package
-library(rKenyaCensus2019)
+library(rKenyaCensus)
 
 ## Extract the table
 df <- V1_T2.2

@@ -1,4 +1,4 @@
-Package: rKenyaCensus2019
+Package: rKenyaCensus
 Title: 2019 Kenya Population and Housing Census Results
 Version: 0.0.1
 Authors@R: person("Shelmith", "Kariuki", email = "kariukishelmith@gmail.com", role = c("cre","aut"))
