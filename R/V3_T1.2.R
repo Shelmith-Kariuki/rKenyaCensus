@@ -9,7 +9,7 @@
 #' \describe{
 #' \item{\code{CountyCode}}{County Code (1 - 47)}
 #' \item{\code{County}}{County}
-#' \item{\code{SubCountyCode}}{Sub County Code (1 - 47)}
+#' \item{\code{SubCountyCode}}{Sub County Code}
 #' \item{\code{SubCounty}}{Sub County}
 #' }
 #' @keywords datasets

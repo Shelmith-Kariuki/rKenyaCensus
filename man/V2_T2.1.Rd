@@ -14,6 +14,6 @@
 data(V2_T2.1)
 }
 \description{
-Sub-locations with no People on the Census Night by Status/Reason
+Sub-locations with no people on the census night by Status/Reason
 }
 \keyword{datasets}

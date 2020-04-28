@@ -4,8 +4,9 @@
 \name{V3_T2.4a}
 \alias{V3_T2.4a}
 \title{Volume 3: Table 2.4a}
-\format{A data frame with 4 variables:
+\format{A data frame with 5 variables:
 \describe{
+\item{\code{County}}{County}
 \item{\code{Age}}{Age}
 \item{\code{Male}}{Number of Males}
 \item{\code{Female}}{Number of Females}

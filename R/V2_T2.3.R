@@ -12,8 +12,8 @@
 #' \item{\code{Sex_Male}}{Number of Males}
 #' \item{\code{Sex_Female}}{Number of Females}
 #' \item{\code{Households_Total}}{Total number of households}
-#' \item{\code{Households_Conventional}}{Total number of Conventional households}
-#' \item{\code{Households_GroupQuarters}}{Total number of GroupQuarters households}
+#' \item{\code{Households_Conventional}}{Number of Conventional households}
+#' \item{\code{Households_GroupQuarters}}{Number of GroupQuarters households}
 #' \item{\code{LandArea(Sq km)}}{Land Area in Square Kilometres}
 #' \item{\code{Density(Persons per Sq km)}}{Number of Persons per square kilometre**}
 #'}

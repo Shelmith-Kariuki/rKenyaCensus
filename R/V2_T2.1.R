@@ -1,6 +1,6 @@
 #' Volume 2: Table 2.1
 #'
-#' Sub-locations with no People on the Census Night by Status/Reason
+#' Sub-locations with no people on the census night by Status/Reason
 #' @docType data
 #'
 #' @usage data(V2_T2.1)

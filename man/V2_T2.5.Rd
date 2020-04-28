@@ -17,5 +17,7 @@ data(V2_T2.5)
 }
 \description{
 Distribution of Population by Urban Centres, Sex* and County
+Intersex figures are too few to be distributed at sub national level. Totals may therefore differ slightly.
+Urban Centres displayed in this data are those with a population of 2,000 and above.
 }
 \keyword{datasets}
