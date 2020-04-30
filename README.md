@@ -28,6 +28,12 @@ install.packages("rKenyaCensus")
 
 *Note: This package is not yet available on CRAN.*
 
+**Disclaimer alert**: This package is still under development. The data
+is being cleaned and refined on a daily basis. Changes are being pushed
+to github every afternoon beginning 29th April, 2020. Please keep
+refreshing (re-downloading) the package, so that you can have the most
+updated version. Incase of any issue, please raise an issue on github.
+
 ## Example
 
 Information on each of the datasets can be found in the DataCatalogue
