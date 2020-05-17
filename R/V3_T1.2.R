@@ -3,9 +3,9 @@
 #' List of Counties and Sub-Counties
 #' @docType data
 #'
-#' @usage data(V2_T1.2)
+#' @usage data(V3_T1.2)
 #'
-#' @format A data frame with 13 variables:
+#' @format A data frame with 4 variables:
 #' \describe{
 #' \item{\code{CountyCode}}{County Code (1 - 47)}
 #' \item{\code{County}}{County}

@@ -1,0 +1,34 @@
+#' Volume 4: Table 2.6b
+#'
+#' Table 2.6b: Distribution of Population Age 3 Years and Above by School Attendance Status,
+#'  Sex, Special Age Groups and County
+#' @docType data
+#'
+#' @usage data(V4_T2.6b)
+#'
+#' @format A data frame with 23 variables
+#' \describe{
+#' \item{\code{County}}{County}
+#' \item{\code{Age}}{Age}
+#' \item{\code{Total}}{Total}
+#' \item{\code{Male}}{Number of males}
+#' \item{\code{Female}}{Number of females}
+#' \item{\code{StillinSchool_Total}}{Total number of persons still in school / a learning institution.}
+#' \item{\code{StillinSchool_Male}}{Number of males still in school / a learning institution.}
+#' \item{\code{StillinSchool_Female}}{Number of females still in school / a learning institution.}
+#' \item{\code{LeftSchoolAfterC_Total}}{Total number of persons who left school / a learning institution, after completion.}
+#' \item{\code{LeftSchoolAfterC_Male}}{Number of males who left school / a learning institution, after completion.}
+#' \item{\code{LeftSchoolAfterC_Female}}{Number of females who left school / a learning institution, after completion.}
+#' \item{\code{LeftSchoolBeforeC_Total}}{Total number of persons who left school / a learning institution, before completion.}
+#' \item{\code{LeftSchoolBeforeC_Male}}{Number of males who left school / a learning institution, before completion.}
+#' \item{\code{LeftSchoolBeforeC_Female}}{Number of females who left school / a learning institution, before completion.}
+#' \item{\code{NeverbeentoSchool_Total}}{Total number of persons who have never been to a school / a learning institution.}
+#' \item{\code{NeverbeentoSchool_Male}}{Number of males who have never been to a school / a learning institution.}
+#' \item{\code{NeverbeentoSchool_Female}}{Number of females who have never been to a school / a learning institution.}
+#' \item{\code{...}}{The other variables indicate situations where the state of school attendance is not known / not stated.}
+#' }
+#' Intersex population is excluded from the table since it is too small to be distributed at sub-national level.
+#'
+#' @keywords datasets
+"V4_T2.6b"
+

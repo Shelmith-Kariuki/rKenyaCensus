@@ -4,7 +4,7 @@
 \name{V3_T1.2}
 \alias{V3_T1.2}
 \title{Volume 3: Table 1.2}
-\format{A data frame with 13 variables:
+\format{A data frame with 4 variables:
 \describe{
 \item{\code{CountyCode}}{County Code (1 - 47)}
 \item{\code{County}}{County}
@@ -12,7 +12,7 @@
 \item{\code{SubCounty}}{Sub County}
 }}
 \usage{
-data(V2_T1.2)
+data(V3_T1.2)
 }
 \description{
 List of Counties and Sub-Counties
